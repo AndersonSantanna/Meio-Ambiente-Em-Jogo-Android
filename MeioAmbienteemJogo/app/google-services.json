@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "426383858477",
+    "firebase_url": "https://meio-ambiente-em-jogo.firebaseio.com",
+    "project_id": "meio-ambiente-em-jogo",
+    "storage_bucket": "meio-ambiente-em-jogo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426383858477:android:9edb76abc5cf9447",
+        "android_client_info": {
+          "package_name": "br.com.techsantanna.meioambienteemjogo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426383858477-k0g7ft22jtcfq10941a6odps313ldqu9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.techsantanna.meioambienteemjogo",
+            "certificate_hash": "d02588c301ea827e1f2c31b0166358fe509bf5f2"
+          }
+        },
+        {
+          "client_id": "426383858477-ia6seeb5823nmc9i0e10p2j5buekighn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvgAx8r7kfItEq1ufChS1FqK8LvtuLmcQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "426383858477-ia6seeb5823nmc9i0e10p2j5buekighn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
