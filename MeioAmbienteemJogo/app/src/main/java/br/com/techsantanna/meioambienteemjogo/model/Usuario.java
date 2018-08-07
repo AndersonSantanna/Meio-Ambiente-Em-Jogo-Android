@@ -1,9 +1,16 @@
 package br.com.techsantanna.meioambienteemjogo.model;
 
-public class Usuario {
+import android.util.Base64;
+
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
+import java.io.Serializable;
+
+public class Usuario implements Serializable {
     private String nome, email, senha, sexo;
     private int idade;
-    private Arvore arvore = new Arvore();
+    public Arvore arvore = new Arvore();
 
     public Usuario(String nome, String sexo, String email, String senha, int idade, String ar) {
         this.nome = nome;
@@ -17,10 +24,22 @@ public class Usuario {
         this.arvore.setQtdAdubar(10);
         this.arvore.setQtdAntiPragas(10);
         this.arvore.setQtdPodar(10);
-        this.arvore.setQtdReagar(10);
+        this.arvore.setQtdRegar(10);
     }
     public  Usuario(){
 
+    }
+
+    @Override
+    public String toString() {
+        return "Usuario{" +
+                "nome='" + nome + '\'' +
+                ", email='" + email + '\'' +
+                ", senha='" + senha + '\'' +
+                ", sexo='" + sexo + '\'' +
+                ", idade=" + idade +
+                ", arvore=" + arvore +
+                '}';
     }
 
     public String getSexo() {

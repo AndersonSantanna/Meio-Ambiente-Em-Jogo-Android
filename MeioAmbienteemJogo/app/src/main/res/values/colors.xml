@@ -7,4 +7,6 @@
     <color name="foreground_material_light">#ffffff</color>
     <color name="fundo">#2831d7</color>
     <color name="back">#20a0cb</color>
+    <color name="primary_text_default_material_dark">#FFFFFF</color>
+
 </resources>
